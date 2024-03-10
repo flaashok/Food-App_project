@@ -221,3 +221,21 @@ nav h1{
   background-color: #2fe45f;
   border: solid 1px #2fe45f;
 }
+.orderPlaced {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.orderPlaced .orderInfo h2 {
+  font-size: 3rem;
+  color: #f45;
+  padding: 0;
+  margin: 0;
+}
+.orderPlaced .orderInfo p {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
